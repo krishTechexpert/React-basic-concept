@@ -5,12 +5,12 @@ import { UserContextProvider } from './Context';
 
 function App() {
   return (
-    <>
+    <div>
       <UserContextProvider>
         <Profile />
         <Subscribe />
       </UserContextProvider>
-    </>
+    </div>
   );
 }
 
